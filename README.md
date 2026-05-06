@@ -1,21 +1,2 @@
-name: Minha Primeira Linha de Montagem
-
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-    build-e-teste:
-       runs-on: ubuntu-latest
-
-    steps:
-    
-       - name: 1. Pegar o chassi do carro (código-fonte)
-         uses: actions/checkout@v3
-
-       - name: 2. Estação de Build (Montagem)
-         run: echo "Construindo o projeto... Verificando se todas as peças se encaixam!"
-
-        - name: 3. Estação de Teste (Controle de Qualidade)
-           run: echo "Rodando os testes automatizados... Verificando se a porta abre e fecha!"
+[![Minha Primeira Linha de Montagem](https://github.com/art3yp/minha-primeira-linha-de-montagem/actions/workflows/main.yml/badge.svg)](https://github.com/art3yp/minha-primeira-linha-de-montagem/actions/workflows/main.yml)
 
